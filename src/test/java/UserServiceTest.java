@@ -20,8 +20,8 @@ public class UserServiceTest {
     @Test
     public void get_user_by_b_email_test() throws SQLException {
 
-//        User user = UserService.getUserByEmail("b");
-//        Assertions.assertEquals("b", user.getEmail().trim());
-//        Assertions.assertEquals(user instanceof User, true);
+        User user = UserService.getUserByEmail("b");
+        Assertions.assertEquals("b", user.getEmail().trim());
+        Assertions.assertEquals(user instanceof User, true);
     }
 }

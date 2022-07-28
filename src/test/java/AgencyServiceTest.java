@@ -23,6 +23,7 @@ public class AgencyServiceTest {
 
     @Test
     public void test_update_agency_expected_true() {
+
         AgencyService agencyService = new AgencyService();
         Agency agency = new Agency();
         agency.setName("test");
@@ -34,6 +35,7 @@ public class AgencyServiceTest {
         agency.setEmail("test2");
         agency.setAddress("test2");
         agency.setCity("test2");
+
         //expected: true
         Assertions.assertTrue(agencyService.updateAgency(agency));
         System.out.println("Agency updated");
