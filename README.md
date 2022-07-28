@@ -1,7 +1,12 @@
 # Bootcamp-Final-Project
 
 - Bootcamp eğitimi bitirme ödevidir.
+  - Projeyi başlatmadan önce Veritabaını Ayağa kaldırmanız gerekmektedir.
+    - Veritabanını ayağa kaldırmak için `docker-compose up` komutunu kullanın.
+    - Docker içerisinde `postgresql` veriabanı konfigurasyonları yapılmıştır.
   - Projeyi başlatmak için run butonuna tıklamak yeterlidir.
+  
+
   - Proje başladıktan sonra ;
     - Bizi bir login ekranı karşılıyor ,eğer kayıt yoksa kayıt ol butonuna tıklayıp ordan yeni bir kayıt oluşturabilirsiniz.
     - Başarılı bir şekilde giriş yaptıktan sonra bizi kayıtlı Adminlerini listesini gösteren ve finansal datalara erişmek için bir `Listele` butonu karşılıyor.
@@ -18,8 +23,6 @@
       - Ancak Tabloda göstermeden bar formatında gösteremezsiniz! .
 
 
-- Veritabanını ayağa kaldırmak için `docker-compose up` komutunu kullanın.
-  - Docker içerisinde `postgresql` veriabanı konfigurasyonları yapılmıştır.
 
 - ### ÖNEMLİ NOT 1 !!!
     - Er-Diagram ve Use-Case Diagramları `./resources` klasörüne eklenmiştir.
