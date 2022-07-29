@@ -1,4 +1,4 @@
-import com.baranbatur.finalproject.services.PaymentService;
+import com.baranbatur.javabootcamp.finalproject.services.PaymentService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

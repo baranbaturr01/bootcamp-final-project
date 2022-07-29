@@ -1,4 +1,4 @@
-import com.baranbatur.finalproject.view.LoginGui;
+import com.baranbatur.javabootcamp.finalproject.view.LoginGui;
 
 import java.io.IOException;
 

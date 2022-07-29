@@ -1,5 +1,5 @@
-import com.baranbatur.finalproject.entity.Agency;
-import com.baranbatur.finalproject.services.AgencyService;
+import com.baranbatur.javabootcamp.finalproject.entity.Agency;
+import com.baranbatur.javabootcamp.finalproject.services.AgencyService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
