@@ -31,3 +31,6 @@
 
 - ### ÖNEMLİ NOT 2 !!!
     - Veritabanı dataları `./resources/DatabaseCsv` klasörüne `.csv` formatında eklenmiştir.
+
+- ### ÖNEMLİ NOT 3 !!
+  - Projenin Ekran görüntüleri `./resources/images/Screenshots` klasörüne eklenmiştir.
