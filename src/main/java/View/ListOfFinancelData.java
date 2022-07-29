@@ -236,25 +236,5 @@ public class ListOfFinancelData extends JFrame {
         }
     }
 
-//    public void tableOfCompareByIds(int firstPolicyId, int secondPolicyId) throws SQLException {
-//
-//        DefaultTableModel model = Helper.createTableModel(new Object[]{"Policy Name", "Total Payment"}, tableforcompare);
-//
-//        List<String> policies = CustomerPolicyService.getCustomerPolicyByIds(firstPolicyId, secondPolicyId);
-//        System.out.println(policies);
-//        try {
-//            for (String data : policies) {
-//
-//                model.addRow(new Object[]{data.split(",")[0], data.split(",")[1]});
-//
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//
-//        }
-//
-//
-//    }
-
 
 }
