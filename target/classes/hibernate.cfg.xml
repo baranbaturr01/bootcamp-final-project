@@ -14,12 +14,12 @@
         <property name="hibernate.connection.pool_size">1</property>
         <property name="hibernate.connection.autocommit">false</property>
         <property name="hibernate.transaction.auto_close_session">false</property>
-        <mapping class="entity.Payment"></mapping>
-        <mapping class="entity.Agency"></mapping>
-        <mapping class="entity.Policy"></mapping>
-        <mapping class="entity.Customer"></mapping>
-        <mapping class="entity.CustomerPolicy"></mapping>
-        <mapping class="entity.User"></mapping>
+        <mapping class="com.baranbatur.finalproject.entity.Payment"></mapping>
+        <mapping class="com.baranbatur.finalproject.entity.Agency"></mapping>
+        <mapping class="com.baranbatur.finalproject.entity.Policy"></mapping>
+        <mapping class="com.baranbatur.finalproject.entity.Customer"></mapping>
+        <mapping class="com.baranbatur.finalproject.entity.CustomerPolicy"></mapping>
+        <mapping class="com.baranbatur.finalproject.entity.User"></mapping>
 
     </session-factory>
 </hibernate-configuration>

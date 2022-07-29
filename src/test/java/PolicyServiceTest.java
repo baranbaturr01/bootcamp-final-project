@@ -1,5 +1,5 @@
-import entity.Policy;
-import services.PolicyService;
+import com.baranbatur.finalproject.entity.Policy;
+import com.baranbatur.finalproject.services.PolicyService;
 import org.junit.jupiter.api.Test;
 
 import java.sql.SQLException;

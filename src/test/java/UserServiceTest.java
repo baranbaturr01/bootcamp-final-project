@@ -1,5 +1,5 @@
-import entity.User;
-import services.UserService;
+import com.baranbatur.finalproject.entity.User;
+import com.baranbatur.finalproject.services.UserService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
