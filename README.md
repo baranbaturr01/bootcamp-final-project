@@ -34,3 +34,6 @@
 
 - ### ÖNEMLİ NOT 3 !!
   - Projenin Ekran görüntüleri `./resources/images/Screenshots` klasörüne eklenmiştir.
+
+- ### ÖNEMLİ NOT 4 !!!
+    - Projenin test covarage ekran görüntüsü `./resources/images/TestcovarageScreenShoot` klasörüne eklenmiştir.
