@@ -1,5 +1,5 @@
-import Entity.Agency;
-import Services.AgencyService;
+import entity.Agency;
+import services.AgencyService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

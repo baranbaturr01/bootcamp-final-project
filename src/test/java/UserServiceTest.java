@@ -1,5 +1,5 @@
-import Entity.User;
-import Services.UserService;
+import entity.User;
+import services.UserService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +11,7 @@ public class UserServiceTest {
     @Test
     public void get_all_user_test() throws SQLException {
         List<User> users = UserService.getAllUsers();
-        Assertions.assertEquals(1, users.size());
+        Assertions.assertEquals(2, users.size());
         //Assertions.assertEquals("admin", users.get(0).getUsername());
         Assertions.assertTrue(users instanceof List);
 

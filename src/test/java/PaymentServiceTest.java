@@ -1,9 +1,8 @@
-import Services.PaymentService;
+import services.PaymentService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.sql.SQLException;
-import java.util.List;
 
 public class PaymentServiceTest {
     @Test

@@ -1,5 +1,5 @@
-import Entity.Policy;
-import Services.PolicyService;
+import entity.Policy;
+import services.PolicyService;
 import org.junit.jupiter.api.Test;
 
 import java.sql.SQLException;
@@ -14,7 +14,10 @@ public class PolicyServiceTest {
     @Test
     public void add_policy_test() {
         try {
-            assertTrue(PolicyService.addPolicy("test", "true"));
+            Policy policy=new Policy();
+            policy.setName("test");
+            policy.setStatus("test");
+            assertTrue(PolicyService.addPolicy(policy.getId(),policy.getName(),policy.getStatus()));
             System.out.println("add_policy_test passed");
         } catch (SQLException e) {
             e.printStackTrace();

@@ -1,4 +1,4 @@
-import View.LoginGui;
+import view.LoginGui;
 
 import java.io.IOException;
 
